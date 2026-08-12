@@ -4,5 +4,3 @@
 ✅ Enable screen sharing so the agent can see your screen 
 ✅ Implement real actions — unblock users, send ticket emails, and more 
 ✅ Add typing sound effects (audio cues) and success notifications (visual cues)
-![Chatbot Project](./images/Chatbot%20Project.jpg)
-
