@@ -4,3 +4,37 @@
 ✅ Enable screen sharing so the agent can see your screen 
 ✅ Implement real actions — unblock users, send ticket emails, and more 
 ✅ Add typing sound effects (audio cues) and success notifications (visual cues)
+### 🧠 System Architecture
+
+```text
+                    ┌─────────────────────┐
+                    │        User         │
+                    └──────────┬──────────┘
+                               │
+                    ┌──────────┴──────────┐
+                    │ Multimodal Input    │
+                    │ Voice + Text +      │
+                    │ Screen Context      │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │   AI Support Agent  │
+                    │  Reasoning + Tools  │
+                    └──────────┬──────────┘
+                               │
+             ┌─────────────────┼─────────────────┐
+             ▼                 ▼                 ▼
+       Voice Response      3D Avatar      Screen Analysis
+             │                 │                 │
+             └─────────────────┼─────────────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │   Real-World       │
+                    │     Actions        │
+                    └──────────┬──────────┘
+                               │
+              ┌────────────────┼────────────────┐
+              ▼                ▼                ▼
+        User Support      Ticket Email     Account Actions
