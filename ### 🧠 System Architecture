@@ -1,0 +1,51 @@
+# 🎙️ Multimodal AI Technical Support Agent
+
+A real-time, voice-enabled AI support agent designed to deliver intelligent, interactive, and human-like technical assistance through a unified multimodal interface. The system combines conversational AI, live voice interaction, an expressive 3D avatar, screen sharing, and real-world action execution to create a next-generation technical support experience.
+
+### ✨ Core Capabilities
+
+- 🎙️ **Real-Time Voice Interaction** — Natural voice-based communication between users and the AI support agent.
+- 💬 **Conversational AI** — Context-aware text and voice conversations for intelligent technical assistance.
+- 🤖 **3D AI Avatar** — Human-like visual presence powered by Beyond Presence for a more immersive support experience.
+- 🖥️ **Live Screen Sharing** — Enables the agent to observe the user's screen and understand software, UI, and desktop-related issues.
+- 👁️ **Multimodal Understanding** — Combines conversational input with visual screen context for more effective troubleshooting.
+- ⚡ **Real-Time Agent Interaction** — Low-latency communication and responsive AI assistance powered by LiveKit Agents.
+- 🛠️ **Action-Oriented Support** — Designed to execute real-world support actions such as unblocking users, initiating workflows, and sending support-ticket emails.
+- 🔊 **Audio Feedback** — Typing sounds, voice responses, and success cues for an interactive user experience.
+- 🎨 **Customizable Interface** — Configurable visual appearance and interaction experience.
+- 🔐 **Human-Centered Support** — Designed to make technical assistance more accessible, interactive, and efficient.
+
+### 🧠 System Architecture
+
+```text
+                    ┌─────────────────────┐
+                    │        User         │
+                    └──────────┬──────────┘
+                               │
+                    ┌──────────┴──────────┐
+                    │ Multimodal Input    │
+                    │ Voice + Text +      │
+                    │ Screen Context      │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │   AI Support Agent  │
+                    │  Reasoning + Tools  │
+                    └──────────┬──────────┘
+                               │
+             ┌─────────────────┼─────────────────┐
+             ▼                 ▼                 ▼
+       Voice Response      3D Avatar      Screen Analysis
+             │                 │                 │
+             └─────────────────┼─────────────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │   Real-World       │
+                    │     Actions        │
+                    └──────────┬──────────┘
+                               │
+              ┌────────────────┼────────────────┐
+              ▼                ▼                ▼
+        User Support      Ticket Email     Account Actions
